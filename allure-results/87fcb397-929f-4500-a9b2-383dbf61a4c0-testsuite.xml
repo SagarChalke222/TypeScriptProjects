@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662584200153' stop='1662584200160'>
+    <name>Validate homepage UI: As a user, I can validate home page UI</name>
+    <title>Validate homepage UI: As a user, I can validate home page UI</title>
+    <test-cases>
+        <test-case start='1662584200154' status='passed' stop='1662584200155'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1662584200155' status='broken' stop='1662584200156'>
+            <name>Given I am on the login page https://www.i.europe.food.saveris.net/authenticate/login</name>
+            <title>Given I am on the login page https://www.i.europe.food.saveris.net/authenticate/login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the login page https://www.i.europe.food.saveris.net/authenticate/login" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the login page https://www.i.europe.food.saveris.net/authenticate/login" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\Projects\TSimgRegTestoGraph1\features\TStestoImgReg.feature):1:1
+                	at Scenario(As a user, I can validate home page UI):3:5
+                	at Step(I am on the login page &lt;homepage>):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662584200157' status='broken' stop='1662584200157'>
+            <name>Then I can validate the page UI</name>
+            <title>Then I can validate the page UI</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I can validate the page UI" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I can validate the page UI" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\Projects\TSimgRegTestoGraph1\features\TStestoImgReg.feature):1:1
+                	at Scenario(As a user, I can validate home page UI):3:5
+                	at Step(I can validate the page UI):6:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1662584200157' status='passed' stop='1662584200158'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
